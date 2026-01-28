@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+--main-color : #FFFFFF;
+--dark-black: #121929;
+--light-black: #404552;
+--light-txt-color: #696F7B;
+}
+
+
+body{
+background-color: var(--main-color);
+font-family: "Manrope", sans-serif;
+display: flex;
+justify-content: center;
+height: 100vh; 
+align-items: center;  
+}
+
+a {
+    all: unset;
+    color: inherit;
+    cursor: pointer;
+}
+
+.l-txt{
+font-size: 2.2rem;
+font-weight: 600;
+}
+
+.med-text{
+font-size: 1.5rem;
+}
+
+.s-txt{
+font-size: 1.1rem;
+}
+
+.s-txt-light{
+font-size: 1.1rem;
+color: var(--light-txt-color);
+}
+
+.xs-txt{
+    font-size: 0.8rem;
+}
+
+.frgt-pass{
+    font-weight: 500;
+}
+
+.auth-div{
+    /* background-color: red; */
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px;
+}
+
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.auth-form input{
+    margin: 10px 0px;
+    width: 100%;
+}
+
+.submit-btn{
+    all: unset;
+    width: 100%;
+    background-color: var(--dark-black);
+    color: white;
+    font-size: 1.2rem;
+    height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.submit-btn:hover{
+    background-color: var(--light-black);
+}
+.password-div{
+    position: relative;
+}
+
+.show-pass-btn{
+    all: unset;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+}
+.inpt-box{
+    all: unset;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    height: 30px;
+    background-color: #FFFFFF;
+    padding: 5px;
+}
+
+
+.hidden{
+display: none;
+}

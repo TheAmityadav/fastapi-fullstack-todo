@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login-Page</title>
+  <link rel="stylesheet" href="styles/login.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- LOGIN_PAGE -->
+    <div class="auth-div login-div hidden">
+      <div class="headings-div">
+        <h1 class="l-txt">Welcome back</h1>
+        <p class="s-txt-light">Welcome back! Please enter your details.</p>
+      </div>
+      <form action="" class="auth-form">
+        <label for="email">Email</label>
+        <input type="text" id="email" placeholder="Enter your email" class="inpt-box">
+
+        <div class="password-div">
+          <label for="password">Password</label>
+          <input type="password" placeholder="Password" class="inpt-box">
+          <button class="show-pass-btn">
+            <i class="fa-regular fa-eye-slash "></i>
+            <i class="fa-regular fa-eye hidden" style="display: none"></i>
+          </button>
+        </div>
+
+        <a href="#" class="frgt-pass">Fogot password</a>
+
+        <button class="submit-btn">Login</button>
+      </form>
+
+      <p class="last-txt"> <span class="s-txt-light">Don’t have an account?</span>
+        <a href="#" class="s-txt">Sign up</a>
+      </p>
+    </div>
+
+    <!-- SIGNUP_PAGE -->
+
+    <div class="auth-div signup-div">
+      <div class="headings-div">
+        <h1 class="l-txt">Create an account</h1>
+        <p class="s-txt-light">Singup to get started!</p>
+      </div>
+      <form action="" class="auth-form">
+        <label for="email">Email</label>
+        <input type="text" id="email" placeholder="Enter your email" class="inpt-box">
+
+        <div class="password-div">
+          <label for="password">Password</label>
+          <input type="password" placeholder="Password" class="inpt-box">
+          <button class="show-pass-btn">
+            <i class="fa-regular fa-eye-slash "></i>
+            <i class="fa-regular fa-eye hidden" style="display: none"></i>
+          </button>
+        </div>
+
+        <div class="password-div">
+          <label for="password">Confirm Password</label>
+          <input type="password" placeholder="Confirm Password" class="inpt-box">
+          <button class="show-pass-btn">
+            <i class="fa-regular fa-eye-slash "></i>
+            <i class="fa-regular fa-eye hidden" style="display: none"></i>
+          </button>
+        </div>
+
+        <button class="submit-btn">Signup</button>
+      </form>
+
+      <p class="last-txt"> <span class="s-txt-light">Already have an account?</span>
+        <a href="#" class="s-txt">Login</a>
+      </p>
+    </div>
+  </div>
+
+
+
+</body>
+
+</html>
