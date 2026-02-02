@@ -16,13 +16,15 @@
 
 
 body{
-background-color: var(--main-color);
-font-family: "Manrope", sans-serif;
-display: flex;
-justify-content: center;
-height: 100vh; 
-align-items: center;  
+    background-color: var(--main-color);
+    font-family: "Manrope", sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 100vh; 
+    align-items: center;  
 }
+
+
 
 a {
     all: unset;

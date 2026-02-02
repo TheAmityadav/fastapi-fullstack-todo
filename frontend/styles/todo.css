@@ -13,3 +13,115 @@
 --light-txt-color: #696F7B;
 }
 
+
+.l-txt{
+font-size: 2.2rem;
+font-weight: 600;
+}
+
+.med-text{
+font-size: 1.5rem;
+}
+
+.s-txt{
+font-size: 1.1rem;
+}
+
+.s-txt-light{
+font-size: 1.1rem;
+color: var(--light-txt-color);
+}
+
+.xs-txt{
+    font-size: 0.8rem;
+}
+
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: "Manrope", sans-serif;
+}
+
+
+
+.todo-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40vw;
+    align-items: center;
+    gap: 20px;
+}
+
+.heading-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.add-task-div{
+    display: flex;
+    width: 100%;
+
+}
+
+.add-task-div input{
+    width: 100%;
+}
+
+
+
+.inpt-box{
+    all: unset;
+    border: 1px solid #eee;
+    border-radius: 5px 0px 0px 5px;
+    background-color: #FFFFFF;
+    padding: 5px;
+    height: 30px;
+    
+}
+
+.add-btn{
+    all: unset;
+    height: 30px;
+    cursor: pointer;
+    background-color: var(--light-black);
+    border: 1px solid var(--light-black);
+    border-radius: 0px 5px 5px 0px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.add-btn:hover{
+    background-color: var(--dark-black);
+}
+
+.todos-div{
+    width: 100%;
+}
+
+.todos-li{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 5px 0px;
+    height: 40px;
+    padding: 5px;
+    border: 1px solid #eee;
+    border-radius: 5px ;
+    align-items: center;
+
+}
+
+.dlt-btn{
+    all: unset;
+    cursor: pointer;
+}
