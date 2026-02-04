@@ -9,6 +9,8 @@ env/
 */venv/
 */ENV/
 */env/
+*.db
+
 
 # ========================
 # Environment variables
