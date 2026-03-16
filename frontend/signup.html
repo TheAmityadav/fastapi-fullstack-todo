@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HappyTodo Signup</title>
+    <link rel="stylesheet" href="styles/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- SIGNUP_PAGE -->
+
+    <div class="auth-div signup-div">
+      <div class="headings-div">
+        <h1 class="l-txt">Create an account</h1>
+        <p class="s-txt-light">Singup to get started!</p>
+      </div>
+      <form action="" class="auth-form signup-form">
+        <label for="email">Email</label>
+        <input type="text" id="email" placeholder="Enter your email" class="inpt-box">
+        <p style="color: red;" class="invld-email hidden">Email is invalid</p>
+
+        <div class="password-div">
+          <label for="password">Password</label>
+          <input type="password" placeholder="Password" class="inpt-box pass">
+          <button class="show-pass-btn pass-btn1">
+            <i class="fa-regular fa-eye-slash"></i>
+            <i class="fa-regular fa-eye" style="display: none"></i>
+          </button>
+        </div>
+
+        <div class="password-div">
+          <label for="password">Confirm Password</label>
+          <input type="password" placeholder="Confirm Password" class="inpt-box cnf-pass pass">
+          <p style="color: red;" class="invld-pass hidden">Password and Confirm Password is not same</p>
+          <button class="show-pass-btn pass-btn2">
+            <i class="fa-regular fa-eye-slash "></i>
+            <i class="fa-regular fa-eye hidden" style="display: none"></i>
+          </button>
+        </div>
+
+        <button class="submit-btn">Signup</button>
+      </form>
+
+      <p class="last-txt"> <span class="s-txt-light">Already have an account?</span>
+        <a href="#" class="s-txt">Login</a>
+      </p>
+    </div>
+    </div>
+    <script src="scripts/signup.js"></script>
+</body>
+</html>

@@ -53,7 +53,7 @@ def login_user(user_info : UserLogin, db : Session = Depends(get_db)):
     token = create_access_token(data)
     
     
-    return {"token" : token}
+    return {"msg" : "success","token" : token}
 
 
 
